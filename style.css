@@ -93,3 +93,9 @@ img {
     background-color:red;
     width:10px;
 }
+
+.line-div {
+    width:121px;
+    height:11px;
+    background-color:black;
+}

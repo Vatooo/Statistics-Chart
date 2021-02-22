@@ -106,14 +106,6 @@ row7.addEventListener('mouseout', () => {
     row7.innerHTML = ''
 })
 
-let i = 0;
 
-document.body.onload = function() {
-    console.log('load')
-}
-
-document.body.addEventListener('load', () => {
-    console.log('loaded')
-})
 
 
