@@ -86,3 +86,10 @@ img {
   font-size:21px;
 }
 
+
+
+.counter-div {
+    height:11px;
+    background-color:red;
+    width:10px;
+}

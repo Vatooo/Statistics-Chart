@@ -10,7 +10,7 @@ let row6 = document.querySelector('.row-6')
 let row7 = document.querySelector('.row-7')
 
 let image = document.querySelector('.image')
-console.log(image)
+
 
 chart.addEventListener('mouseover', () => {
 
@@ -105,3 +105,15 @@ row7.addEventListener('mouseover', () => {
 row7.addEventListener('mouseout', () => {
     row7.innerHTML = ''
 })
+
+let i = 0;
+
+document.body.onload = function() {
+    console.log('load')
+}
+
+document.body.addEventListener('load', () => {
+    console.log('loaded')
+})
+
+
