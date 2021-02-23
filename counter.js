@@ -7,7 +7,7 @@ let j
 updateVisitCount()
 function updateVisitCount() {
     
-    fetch('https://api.countapi.xyz/update/mysite.com/vat223/?amount=1')
+    fetch('https://api.countapi.xyz/update/mysite.com/vato2222/?amount=1')
     .then(res => res.json())
     .then(res => {
         countEl.innerHTML = res.value
