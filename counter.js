@@ -7,7 +7,7 @@ let j
 updateVisitCount()
 function updateVisitCount() {
     
-    fetch('https://api.countapi.xyz/update/mysite.com/vato1111/?amount=1')
+    fetch('https://api.countapi.xyz/update/mysite.com/vat223/?amount=1')
     .then(res => res.json())
     .then(res => {
         countEl.innerHTML = res.value
@@ -19,10 +19,12 @@ function updateVisitCount() {
             if(res.value > 10) {
                 counterDiv.style.width += `${(j - 10)/4}em`
                 counterDiv.style.transitionDuration += '1s'
+                
             }
             else if(res.value > 20) {
                 counterDiv.style.width += `${(j - 20)/4}em`
                 counterDiv.style.transitionDuration += '1s'
+                res.value = 0
             }
             else if(res.value > 30) {
                 counterDiv.style.width += `${(j - 30)/4}em`
