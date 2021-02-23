@@ -33,6 +33,12 @@ function line1Function() {
             clearInterval(countUp)
         }
     },30);
+
+    statLine1.style.borderBottom= '3px solid rgb(0, 255, 13)'
+    statLine1.style.borderRight= '3px solid rgb(0, 255, 13)'
+    statLine1.style.borderTop= '3px solid rgb(0, 255, 13)'
+    statLine1.style.transitionDuration= '1.4s'
+
 }
 
 function line2Function() {
@@ -45,6 +51,10 @@ function line2Function() {
             clearInterval(countUp)
         }
     },30);
+
+    statLine2.style.borderBottom = '3px solid rgb(26, 137, 211)'
+    statLine2.style.borderRight = '3px solid rgb(26, 137, 211)'
+    statLine2.style.transitionDuration = '1.4s'
 }
 
 function line3Function() {
@@ -58,6 +68,9 @@ function line3Function() {
         }
 
     }, 30);
+
+    statLine3.style.borderRight = '3px solid  rgb(192, 211, 26)'
+    statLine3.style.transitionDuration = '1.4s'
 }
 
 let d = 0
@@ -73,4 +86,7 @@ function line4Function() {
         }
 
     }, 30);
+
+    statLine4.style.borderBottom = '3px solid rgb(211, 38, 26)'
+    statLine4.style.transitionDuration = '1.4s'
 }

@@ -195,9 +195,6 @@ img {
     width:111px;
     height:111px;
     border-radius:50%;
-    border-bottom:3px solid rgb(0, 255, 13);
-    border-right:3px solid rgb(0, 255, 13);
-    border-top:3px solid rgb(0, 255, 13);
     margin:auto;
     padding-top:4px;
     display:flex;
@@ -220,8 +217,6 @@ img {
     width:111px;
     height:111px;
     border-radius:50%;
-    border-bottom:3px solid rgb(26, 137, 211);
-    border-right:3px solid rgb(26, 137, 211);
     margin:auto;
     padding-top:4px;
     z-index:1;
@@ -242,7 +237,7 @@ img {
     width:111px;
     height:111px;
     border-radius:50%;
-    border-right:3px solid rgb(192, 211, 26);
+    /* border-right:3px solid rgb(192, 211, 26); */
     margin:auto;
     padding-top:4px;
     z-index:1;
@@ -263,7 +258,6 @@ img {
     width:111px;
     height:111px;
     border-radius:50%;
-    border-bottom:3px solid rgb(211, 38, 26);
     margin:auto;
     padding-top:4px;
     z-index:1;
